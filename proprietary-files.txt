@@ -57,7 +57,6 @@ vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6c
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|1d4a9d612e0f39b09aeef1d52b153f30ad409c07
 vendor/lib64/libbtnv.so|b58a40965697418c7b4809026bba17bd51bfb2ef
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|0a1f3b4bd383ed547e667087c0aab922efee3473
-vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|f5043d5f1bb02d18e940190f31017d2a1ed97de9
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|fb0eff9ce52c5d2a073253f7c300bc9b54c85684
 
 # Bluetooth aptX(HD) - from walleye QP1A.190711.020
