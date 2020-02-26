@@ -382,6 +382,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
 
+# Tri-state keys
+PRODUCT_PACKAGES += \
+    KeyHandler
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.1-service.xiaomi_msm8998
