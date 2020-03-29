@@ -69,6 +69,8 @@
         <interface>
             <name>ICryptoFactory</name>
             <instance>default</instance>
+            <instance>clearkey</instance>
+            <instance>widevine</instance>
         </interface>
         <interface>
             <name>IDrmFactory</name>
