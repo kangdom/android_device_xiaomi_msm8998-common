@@ -177,9 +177,7 @@ PRODUCT_PACKAGES += \
 
 # Doze
 PRODUCT_PACKAGES += \
-    XiaomiDoze \
-    XiaomiParts
-
+    XiaomiDoze
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -320,7 +318,6 @@ PRODUCT_PACKAGES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.parts.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.recovery.qcom.rc \
