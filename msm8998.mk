@@ -322,16 +322,13 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.recovery.qcom.rc \
     init.target.rc \
-    ueventd.qcom.rc \
-    init.spectrum.rc
+    ueventd.qcom.rc
 
 PRODUCT_PACKAGES += \
     init.panel_info.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
-    init.qcom.sh \
-    init.spectrum.sh \
-    init.vantom.sh
+    init.qcom.sh
 
 # RCS
 PRODUCT_PACKAGES += \
