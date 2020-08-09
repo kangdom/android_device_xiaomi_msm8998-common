@@ -249,10 +249,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_msm8998
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
-
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
@@ -380,14 +376,6 @@ PRODUCT_BOOT_JARS += \
 # TextClassifier smart selection model files
 PRODUCT_PACKAGES += \
     textclassifier.bundle1
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
-
-# Tri-state keys
-PRODUCT_PACKAGES += \
-    KeyHandler
 
 # USB
 PRODUCT_PACKAGES += \
