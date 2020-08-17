@@ -14,6 +14,11 @@
 # limitations under the License.
 #
 
+# ART
+PRODUCT_PROPERTY_OVERRIDES += \
+dalvik.vm.dex2oat-filter=speed \
+dalvik.vm.image-dex2oat-filter=speed
+
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
     aaudio.hw_burst_min_usec=2000 \
@@ -148,6 +153,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sys.fw.dex2oat_thread_count=8 \
     ro.vendor.extension_library=libqti-perfd-client.so \
     ro.vendor.qti.core_ctl_max_cpu=4 \
     ro.vendor.qti.core_ctl_min_cpu=0 \

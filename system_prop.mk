@@ -16,4 +16,8 @@
 
 # Camera
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    vendor.camera.aux.packagelist=com.android.camera,org.lineageos.snap
+    vendor.camera.aux.packagelist=com.android.camera,org.lineageos.snap,org.codeaurora.snapcam
+
+# Zygote preforking
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.device_config.runtime_native.usap_pool_enabled=true
